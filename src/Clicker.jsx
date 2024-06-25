@@ -1,10 +1,6 @@
 function Clicker({ buttonText, alertMessage }) {
-    const alertUser = () => {
-        alert(alertMessage)
-    }
-
     return (
-        <button onClick={alertUser}>
+        <button onClick={() => alert(alertMessage)}>
             {buttonText}
         </button>
     )
