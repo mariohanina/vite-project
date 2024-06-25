@@ -6,6 +6,7 @@ import LettersArray from './LettersArray'
 import DoubleDiceGame from './DoubleDiceGame'
 import Clicker from './Clicker'
 import Counter from './Counter'
+import ToggleCounter from './ToggleCounter'
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <DoubleDiceGame /> */}
       {/* <Clicker buttonText="Click me" alertMessage="Yes, yes!" /> */}
       {/* <Clicker buttonText="Do not click me" alertMessage="Please stop clicking me!" /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <ToggleCounter />
     </>
   )
 }
