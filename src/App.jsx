@@ -20,7 +20,7 @@ function App() {
       {/* <Clicker buttonText="Click me" alertMessage="Yes, yes!" /> */}
       {/* <Clicker buttonText="Do not click me" alertMessage="Please stop clicking me!" /> */}
       {/* <Counter /> */}
-      <ToggleCounter />
+      {/* <ToggleCounter /> */}
     </>
   )
 }
